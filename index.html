@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Team 35</title>
+    <title>Team 31</title>
     <link rel="stylesheet" type="text/css" href="SSheet.css">
   </head>
   <body>
-    <h1>Temarious Turbine - Team 35</h1>
+    <h1>Temarious Turbine - Team 31</h1>
+    <img class = "Logo" src="Team_Logo.png" width = "428" height = "270">
     <h2>CFD Analysis</h2>
     <p>We performed CFD analysis of the water jet making contact with our bucket. Below is an animation showing this</p>
-    <video src="Test_Video.mp4"  width="640" height="360" controls preload></video>
+    <video src="Test_Video.mp4" poster="Placeholder_Image" width="640" height="360" controls preload></video>
 
-    <h2>Bending Moment</h2>
-    <p>We performed bending moment analysis on our.....</p>
+    <h2>Bucket Deflection</h2>
+    <p>Beam Deflection Considerations at the instant when bucket is normal to jet</p>
+    <img src="Bucket Deflection Images/Picture1.png" height = "200" width="250">
+    <p>Assuming the deflection from 0mm≤x<6mm ≪ 6mm≤x and modelling as a rigid support of a cantilever beam such that:</p>
+    <img src="Bucket Deflection Images/Equation1.png">
+    <img src="Bucket Deflection Images/Equation2.png">
+    <img src="Bucket Deflection Images/Picture2.png"height = "200" width="450" >
+    <p>By application of the Principle of Superposition:</p>
+    <p>0mm≤x≤9.4mm</p>
+    <img src="Bucket Deflection Images/Equation3.png">
+    <p>9.4mm≤x≤18.4mm</p>
+    <img src="Bucket Deflection Images/Equation4.png">
+    <p>18.4mm≤x≤36.5mm</p>
+    <img src="Bucket Deflection Images/Equation5.png">
 
-
-
+    <p>Generating the plot:</p>
+    <p>From this the bucket deflects within acceptable parameters when under load to ensure that there is no significant losses of water or collisions with other buckets.</p>
+    <h3>Team Members</h3>
+    <ul class = "Name_List">
+      <li>Cameron Bennett</li>
+      <li>Hannah Collings</li>
+      <li>Rouzbeh Dehnavi</li>
+      <li>Lucky Mackie</li>
+      <li>William Renshaw</li>
+      <li>Aravind Thiruchelvam</li>
+      <li>Man Yuen</li>
+    </ul>
   </body>
 </html>
